@@ -1,0 +1,26 @@
+.pa {
+    width: 400px;
+    margin: auto;
+    list-style: none;
+}
+
+.root {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+.subj,
+.subc,
+.subh {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 5px;
+}
+
+.subc li {
+    list-style: upper-roman;
+}
+
+.subj li {
+    list-style-position: inside;
+}

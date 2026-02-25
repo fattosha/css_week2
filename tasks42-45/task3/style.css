@@ -1,0 +1,12 @@
+/*:root {
+    --maincolor: #009688;
+    --mainpadding: 10px;
+}*/
+
+div {
+    width: 70%;
+    MARGIN: 20PX;
+    COLOR: VAR(--maincolor, RED);
+    BORDER: 2PX SOLID VAR(--maincolor, BLACK);
+    padding: VAR(--mainpadding, 10PX);
+}

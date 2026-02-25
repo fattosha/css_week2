@@ -1,0 +1,30 @@
+p {
+    background-color: rgba(220, 220, 220, 0.509);
+    width: 50%;
+    margin: 20px auto;
+    padding: 7px;
+    position: relative;
+    counter-increment: m-counter;
+}
+
+p::before {
+    content: counter(m-counter);
+    background-color: rgb(255, 17, 0);
+    padding: 7px;
+    color: white;
+    position: absolute;
+    left: -27px;
+    top: 0;
+    width: 15px;
+    text-align: center;
+}
+
+p::after {
+    content: "";
+    background-color: rgb(255, 17, 0);
+    position: absolute;
+    top: 0;
+    width: 4.4px;
+    height: 100%;
+    right: 0%;
+}

@@ -1,0 +1,51 @@
+    div {
+        width: 400px;
+        margin: auto;
+        background-color: lightgray;
+        border-color: red rgb(114, 199, 227);
+        border-style: solid;
+        border-width: 2px;
+        letter-spacing: .41px;
+        padding: 15px;
+        position: relative;
+    }
+    
+    .top-left {
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        background-color: rgb(45, 179, 224);
+        padding: 2px 7px;
+        color: white;
+        border-right: 2px solid red;
+    }
+    
+    .bottom-left {
+        position: absolute;
+        bottom: -10px;
+        left: -10px;
+        background-color: rgb(45, 179, 224);
+        padding: 2px 7px;
+        color: white;
+        border-right: 2px solid red;
+    }
+    
+    .top-right {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        background-color: rgb(45, 179, 224);
+        padding: 2px 7px;
+        color: white;
+        border-left: 2px solid red;
+    }
+    
+    .bottom-right {
+        position: absolute;
+        bottom: -10px;
+        right: -10px;
+        background-color: rgb(45, 179, 224);
+        padding: 2px 7px;
+        color: white;
+        border-left: 2px solid red;
+    }

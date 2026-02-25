@@ -1,0 +1,36 @@
+div {
+    width: 100px;
+    height: 100px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border-radius: 50px;
+    -moz-box-shadow: 4px 4px 1px 1px rgb(86, 120, 224), -4px -4px 1px 1px rgb(223, 23, 86);
+    -o-box-shadow: 4px 4px 1px 1px rgb(86, 120, 224), -4px -4px 1px 1px rgb(223, 23, 86);
+    -ms-box-shadow: 4px 4px 1px 1px rgb(86, 120, 224), -4px -4px 1px 1px rgb(223, 23, 86);
+    box-shadow: 4px 4px 1px 1px rgb(86, 120, 224), -4px -4px 1px 1px rgb(223, 23, 86);
+    border: 1.2px solid black;
+    background-color: rgb(243, 243, 243);
+    display: inline-block;
+    margin: 20px;
+    counter-increment: m-counter;
+    position: relative;
+    transform: translateX(260px);
+}
+
+div::before {
+    content: counter(m-counter);
+    border-radius: 50%;
+    padding: 2px 5px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 40%;
+    top: -10px;
+}
+
+div::after {
+    content: "Element";
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}

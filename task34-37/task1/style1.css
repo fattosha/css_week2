@@ -1,0 +1,13 @@
+div {
+    height: 60px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: gainsboro;
+    padding-top: 30px;
+    text-transform: capitalize;
+}
+
+div:nth-child(2) {
+    background-color: red;
+}

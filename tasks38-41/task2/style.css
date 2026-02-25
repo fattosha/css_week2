@@ -1,0 +1,14 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: rgba(230, 225, 225, 0.432);
+    -ms-box-shadow: 4px 4px 8px#9a9898 inset, -4px -4px 8px#5d5d5de0 inset;
+    -o-box-shadow: 4px 4px 8px#9a9898 inset, -4px -4px 8px #5d5d5de0 inset;
+    box-shadow: 4px 4px 8px#9a9898 inset, -4px -4px 8px#5d5d5de0 inset;
+    -ms-border-radius: 12px 50px;
+    -moz-border-radius: 12px 50px;
+    -o-border-radius: 12px 50px;
+    border-radius: 12px 50px;
+    border: 1px solid rgb(102, 102, 102);
+}

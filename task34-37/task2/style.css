@@ -1,0 +1,16 @@
+div::first-letter {
+    background-color: red;
+    color: white;
+    padding: 6px;
+    margin-left: -25px;
+}
+
+div {
+    background-color: gainsboro;
+    padding: 14px 15px;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+}
