@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 5px 0px 1px 1px orangered, -5px 0px 1px 1px rgba(0, 26, 255, 0.613);
+    background-color: rgba(220, 220, 220, 0.388);
+    color: orangered;
+    font-weight: bold;
+}
