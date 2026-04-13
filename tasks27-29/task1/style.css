@@ -1,18 +1,48 @@
-    .parent {
-        width: 800px;
-        background-color: gainsboro;
-        box-sizing: border-box;
-    }
-    
-    .parent div {
-        background-color: rgb(177, 177, 177);
-        text-align: center;
-        margin: 10px;
-        float: left;
-    }
-    
-    .half p {
-        width: clac((100% - 15px) / 2);
-        margin-right: 15px;
-        border: 1px solid black;
-    }
+   .parent {
+       width: 800px;
+   }
+   
+   .parent::after {
+       content: "";
+       display: block;
+       clear: both;
+   }
+   
+   .parent div {
+       float: left;
+       background-color: #eee;
+       text-align: center;
+       padding: 20px 0;
+       margin-bottom: 15px;
+   }
+   
+   .full {
+       width: 100%;
+   }
+   
+   .three {
+       width: calc((100% - 30px) / 3);
+       margin-right: 15px;
+   }
+   
+   .three:nth-child(4) {
+       margin-right: 0;
+   }
+   
+   .half {
+       width: calc((100% - 15px) / 2);
+       margin-right: 15px;
+   }
+   
+   .half:nth-child(6) {
+       margin-right: 0;
+   }
+   
+   .four {
+       width: calc((100% - 45px) / 4);
+       margin-right: 15px;
+   }
+   
+   .four:nth-child(10) {
+       margin-right: 0;
+   }
